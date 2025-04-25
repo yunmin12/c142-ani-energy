@@ -1,7 +1,7 @@
 # ANI-1 Molecular Energy Prediction Pipeline
 **A supervised ANN model trained on the ANI-1 dataset, completed as the final project for Chem C142 'Machine Learning, Statistical Models, and Optimization for Molecular Problems' (Prof. Teresa Head-Gordon), Spring 2025 @ UC Berkeley.**
 
-## 🗒️ Project Synopsis
+## 📊 Project Synopsis
 
 This endeavor constructs a robust deep learning pipeline to predict molecular energies from atomic configurations. By harnessing Atomic Environment Vectors (AEVs) and PyTorch-based artificial neural networks, we explore regularization techniques, perform hyperparameter optimization, and validate model performance.
 
