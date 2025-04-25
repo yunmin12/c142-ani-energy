@@ -1,5 +1,5 @@
 # ANI-1 Molecular Energy Prediction Pipeline
-**A supervised ANN model trained on the ANI-1 dataset, completed as the final project for Chem C142 'Machine Learning, Statistical Models, and Optimization for Molecular Problems' (Prof. Teresa Head-Gordon), Spring 2025 @ UC Berkeley. Group work of Jae Won Kim and Yunmin Kim.**
+**A supervised ANN model trained on the ANI-1 dataset, completed as the final project for Chem C142 'Machine Learning, Statistical Models, and Optimization for Molecular Problems' (Prof. Teresa Head-Gordon), Spring 2025 @ UC Berkeley.**
 
 ## 🗒️ Project Synopsis
 
@@ -13,7 +13,7 @@ This endeavor constructs a robust deep learning pipeline to predict molecular en
 └── README.md                 # Project overview and usage instructions
 ```
 
-## 📂 Data Preparation
+## 📦 Data Preparation
 
 1. **Environment Setup** All Python dependencies for this project are captured in the `environment.yml` file. To create and activate the environment, run:
 
@@ -26,8 +26,7 @@ This endeavor constructs a robust deep learning pipeline to predict molecular en
    ```bash
    curl -L https://ndownloader.figshare.com/files/9057631 -o ANI1_release.tar.gz
    ```
-4. **Merge** relevant subsets (s01–s04 or s01-s06) into a single HDF5 file:
-5. **Invoke** the dataset loader within the notebook to apply self-energy corrections and species indexing.
+3. **Merge** relevant subsets (s01–s04 or s01-s06) into a single HDF5 file. 
 
 ## 🚀 Execution
 
