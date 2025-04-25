@@ -8,32 +8,26 @@ This endeavor constructs a robust deep learning pipeline to predict molecular en
 ## 📁 Repository Architecture
 
 ```
-├── data/                     # Raw and merged HDF5 dataset files
-│   ├── ani_gdb_s01_to_s06.h5  # Default ANI-1 subsets (s01–s04)
-│   └── ani_gdb_s01_to_s06.h5  # Consolidated ANI-1 subsets including more heavy atoms (s01–s06)
 ├── final_project.ipynb        # Comprehensive Jupyter Notebook
-├── environment.yml           # Python package dependencies
+├── environment.yml           # Python Package Dependencies and Environment Settings
 └── README.md                 # Project overview and usage instructions
-```
-
-## 📦 Environment Setup
-
-All Python dependencies for this project are captured in the `environment.yml` file. To create and activate the environment, run:
-
-```bash
-   conda env create -f environment.yml
-   conda activate ani
 ```
 
 ## 📂 Data Preparation
 
-1. **Download** the ANI-1 dataset archive (`ani-1_dataset.tar.gz`) from Figshare.
-2. 
+1. **Environment Setup** All Python dependencies for this project are captured in the `environment.yml` file. To create and activate the environment, run:
+
+   ```bash
+      conda env create -f environment.yml
+      conda activate ani
+   ```
+2. **Download** the ANI-1 dataset archive (`ani-1_dataset.tar.gz`) from Figshare.
+
    ```bash
    curl -L https://ndownloader.figshare.com/files/9057631 -o ANI1_release.tar.gz
    ```
-3. **Merge** relevant subsets (s01–s04 or s01-s06) into a single HDF5 file:
-4. **Invoke** the dataset loader within the notebook to apply self-energy corrections and species indexing.
+4. **Merge** relevant subsets (s01–s04 or s01-s06) into a single HDF5 file:
+5. **Invoke** the dataset loader within the notebook to apply self-energy corrections and species indexing.
 
 ## 🚀 Execution
 
