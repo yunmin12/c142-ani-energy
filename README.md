@@ -8,7 +8,7 @@ This endeavor constructs a robust deep learning pipeline to predict molecular en
 ## 📁 Repository Architecture
 
 ```
-├── final_project.ipynb        # Comprehensive Jupyter Notebook
+├── project_ckpt_final.ipynb        # Comprehensive Jupyter Notebook
 ├── environment.yml           # Python Package Dependencies and Environment Settings
 └── README.md                 # Project overview and usage instructions
 ```
